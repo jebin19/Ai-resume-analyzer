@@ -69,3 +69,12 @@ The application displays:
 ## Author
 
 Developed by Jebin M
+
+## Sreenshots
+
+
+
+<img width="1890" height="1084" alt="image" src="https://github.com/user-attachments/assets/eaa1d293-1097-4268-a472-c782bbca3f18" />
+<img width="1919" height="1088" alt="image" src="https://github.com/user-attachments/assets/71d2c21f-9d32-4c63-b7b6-a7ede767e9e2" />
+
+

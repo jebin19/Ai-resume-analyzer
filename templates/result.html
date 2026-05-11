@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Analysis Result</h1>
+
+    <h2>Match Percentage</h2>
+
+    <div class="score">
+        {{ match_percentage }}%
+    </div>
+
+    <h2>Skills Found</h2>
+
+    <ul>
+        {% for skill in resume_skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Missing Skills</h2>
+
+    <ul>
+        {% for skill in missing_skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/">Analyze Another Resume</a>
+
+</div>
+
+</body>
+</html>
